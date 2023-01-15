@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    background: hsl(193, 100%, 96%) url(images/bg-hero-desktop.svg);
+    height: 100vh;
+    padding: 50px 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+button {
+    border: none;
+    padding: 15px 60px;
+    border-radius: 30px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-btn {
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.5s
+}
+
+.nav-btn:hover {
+    cursor: pointer;
+    padding: 20px 65px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-info {
+    flex: 1;
+}
+
+.hero-image {
+    width: 50%;
+    flex: 1;
+    ;
+}
+
+.hero-body {
+    margin: 50px 0px;
+}
+
+.hero-btn {
+    background-color: hsl(322, 100%, 66%);
+    color: #ffffff;
+    font-weight: 600px;
+    transition: 0.5s;
+}
+
+.hero-btn:hover {
+    cursor: pointer;
+    padding: 20px 65px;
+}
